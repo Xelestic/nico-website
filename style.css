@@ -1,0 +1,175 @@
+.image {
+    /* Add background img */
+    background-image: url("background2/bugs-bunny-looney-tunes.gif");
+  
+    /* Use filter to add blur effect */
+    filter: blur(15px);
+    
+    height: 100%;
+  
+    /* Center the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* PROFILE SECTION */
+  .profilesection {      /*second one */
+    background-color: rgba(0, 0, 0, 0.4); /* Black partially transparent background */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    border-color: rgba(124, 124, 124, 0.4);
+    border-width: 10px;
+    border-radius: 8%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    padding: 20px;
+    padding-top:80px;
+    text-align: center;
+    box-shadow: 0 0 50px 15px #ffffff;
+    resize: none;
+  }
+
+  .profile-grid {
+    display: flex;
+    flex-direction: column;
+    resize: none;
+  }
+  .profile-name {
+    font-family: 'Protest Strike';
+    font-size: 50px;
+    margin-top: -8px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .verification-box {
+    display: inline-block;
+    
+  }
+  .verification {
+    height: 40px;
+    width: 40px;
+    
+  }
+  
+  .profile-title {
+    font-family: 'Protest Riot';
+    margin-top: -50px;
+    font-size: 25px;
+    margin-bottom: -17px;
+    color: rgba(255, 255, 255, 0.804);
+  }
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 75%;
+    border:solid #ffffff;
+    margin-top: -280px;
+    margin-left: -60px;
+    box-shadow: 0 0 50px 15px #ffffff;
+    position: absolute;
+  }
+  
+  .profile-info {
+    font-family: 'Kanit';
+    padding-top: 20px;
+    font-size: 35px;
+    margin-bottom: -123px;
+    resize: none;
+    height: 200px;
+    width: 800px;
+  }
+
+  /* Style the text */
+  .buttons {
+    background-color: rgba(0, 0, 0, 0.4); /* Black partially transparent background */
+    display: flex;
+    flex-direction: row;
+    row-gap: 31px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    border-color: rgba(124, 124, 124, 0.4);
+    border-width: 10px;
+    border-radius: 8%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 50px 15px #ffffff;
+  }
+  /* DISCORD BUTTON*/
+  .discordbutton {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 8px;
+        padding: 20px 17px 8px 17px;
+        border-color: rgba(255, 255, 255, 0.844);
+        border-width: 10px;
+        border: 3px solid #474646;
+        transition: background 0.5s, transform 0.5s;
+        transition: box-shadow 0.5s, transform 0.5s;
+    }
+    .discordbutton:hover {
+        background-color: rgb(108, 108, 110);   
+        cursor: pointer;
+        box-shadow: 0 0 50px 15px #ffffff;
+    }
+    .discordbuttonbox {
+        transform: scale(1.1);
+        width: 200px;
+        margin-top: 70px;
+    }
+    .discordbuttonbox:hover {
+        transform: translateY(-1px);
+  
+    }
+  
+    .discordlogoimage {
+      margin-bottom: -7px;
+    }
+  
+  /* CASH APP BUTTON */
+  
+    .cashappbutton {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 8px;
+        padding: 20px 17px 8px 17px;
+        border-color: rgba(255, 255, 255, 0.844);
+        border-width: 10px;
+        border: 3px solid #474646;
+        transition: background 0.5s, transform 0.5s;
+        transition: box-shadow 0.5s, transform 0.5s;
+    }
+  
+    .cashappbutton:hover {
+        background-color: rgba(108, 108, 110);
+        cursor: pointer;
+        box-shadow: 0 0 50px 15px #ffffff;
+    }
+    .cashappbuttonbox {
+        transform: scale(1.1);
+        margin-top: 7px;
+        
+    }
+    .cashappbuttonbox:hover {
+        transform: translateY(-1px);
+    }
+  
+    .cashapplogoimage {
+      width: 65%;
+    }
+    
+    .button-box {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .spotify-box {
+      width: 600px;
+    }
