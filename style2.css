@@ -1,0 +1,228 @@
+.image {
+    /* Add background img */
+    background-image: url("background6/profilepicture.gif");
+  
+    /* Use filter to add blur effect */
+    filter: blur(15px);
+    
+    height: 100%;
+  
+    /* Center the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 50px 15px rgb(0, 0, 0);
+  }
+  
+  /* PROFILE SECTION 2 */
+  .profilesection {      /*second one */
+    background-color: rgba(0, 0, 0, 0.4); /* Black partially transparent background */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    border-color: rgba(124, 124, 124, 0.4);
+    border-width: 10px;
+    border-radius: 8%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    padding-top:80px;
+    text-align: center;
+    box-shadow: 0 0 50px 15px #e7e7e7;
+    resize: none;
+  }
+
+  .profile-grid {
+    display: flex;
+    flex-direction: column;
+    resize: none;
+  }
+  .profile-name {
+    font-family: 'Protest Strike';
+    font-size: 50px;
+    margin-top: -8px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .verification-box {
+    display: inline-block;
+    
+  }
+  .verification {
+    height: 40px;
+    width: 40px;
+    
+  }
+  
+  .profile-title {
+    font-family: 'Protest Riot';
+    margin-top: -50px;
+    font-size: 25px;
+    margin-bottom: -17px;
+    color: rgba(255, 255, 255, 0.804);
+  }
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    border:solid #ffffff;
+    margin-top: -165px;
+    margin-left: 25px;
+    box-shadow: 0 0 50px 15px #e7e7e7;
+    position: absolute;
+  }
+  
+  .profile-info {
+    font-family: 'Kanit';
+    padding-top: 20px;
+    font-size: 18px;
+    margin-bottom: -83px;
+    resize: none;
+    height: 200px;
+    width: 800px;
+  }
+
+  /* Style the text */
+  .buttons {
+    background-color: rgba(0, 0, 0, 0.4); /* Black partially transparent background */
+    display: flex;
+    flex-direction: row;
+    row-gap: 31px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    border-color: rgba(124, 124, 124, 0.4);
+    border-width: 10px;
+    border-radius: 8%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 50px 15px #ffffff;
+  }
+ 
+  
+  /* DEVY BUTTON */
+  
+    .devy-button {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 8px;
+        padding: 20px 17px 8px 17px;
+        border-color: rgba(255, 255, 255, 0.844);
+        border-width: 10px;
+        border: 3px solid #474646;
+        transition: background 0.5s, transform 0.5s;
+        transition: box-shadow 0.5s, transform 0.5s;
+        font-family: 'Protest Strike';
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        text-decoration: none;
+    }
+  .devy-pic {
+    display: inline-block;
+  }
+    .devy-button:hover {
+        background-color: rgba(108, 108, 110);
+        cursor: pointer;
+        box-shadow: 0 0 50px 15px #ffffff;
+    }
+    .devy-buttonbox {
+        transform: scale(1.1);
+        margin-top: 7px;
+        
+    }
+    .devy-buttonbox:hover {
+        transform: translateY(-1px);
+    }
+  
+    .cashapplogoimage {
+      width: 65%;
+    }
+
+    /* NICO BUTTON */
+  
+    .nico-button {
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 8px;
+      padding: 20px 17px 8px 17px;
+      border-color: rgba(255, 255, 255, 0.844);
+      border-width: 10px;
+      border: 3px solid #474646;
+      transition: background 0.5s, transform 0.5s;
+      transition: box-shadow 0.5s, transform 0.5s;
+      font-family: 'Protest Strike';
+      color: rgb(255, 255, 255);
+      font-size: 35px;
+      text-decoration: none;
+  }
+  .nico-pic {
+    display: inline-block;
+  }
+  .nico-button:hover {
+      background-color: rgba(108, 108, 110);
+      cursor: pointer;
+      box-shadow: 0 0 50px 15px #ffffff;
+  }
+  .nico-buttonbox {
+      transform: scale(1.1);
+      margin-top: 50px;
+      
+  }
+  .nico-buttonbox:hover {
+      transform: translateY(-1px);
+  }
+
+  .cashapplogoimage {
+    width: 65%;
+  }
+
+  /* JAY BUTTON */
+  
+  .jay-button {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    padding: 20px 17px 8px 17px;
+    border-color: rgba(255, 255, 255, 0.844);
+    border-width: 10px;
+    border: 3px solid #474646;
+    transition: background 0.5s, transform 0.5s;
+    transition: box-shadow 0.5s, transform 0.5s;
+    font-family: 'Protest Strike';
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-decoration: none;
+}
+  .jay-pic {
+    display: inline-block;
+  }
+.jay-button:hover {
+    background-color: rgba(108, 108, 110);
+    cursor: pointer;
+    box-shadow: 0 0 50px 15px #ffffff;
+}
+.jay-buttonbox {
+    transform: scale(1.1);
+    margin-top: 53px;
+    
+}
+.jay-buttonbox:hover {
+    transform: translateY(-1px);
+}
+
+.cashapplogoimage {
+  width: 65%;
+}
+   
+    .button-box {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .spotify-box {
+      width: 600px;
+    }
